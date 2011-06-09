@@ -1,7 +1,7 @@
-# MAKEFILE - Trabalho 3 de Compiladores
-# PROGRAMA:  TokenRing
-# DESCRIÇÃO: Chat usando linha de comando em uma rede com topologia 
-# em anel.
+# MAKEFILE - Trabalho 1 de Redes
+# PROGRAMA:  Raw Network
+# DESCRIÇÃO: Cliente e Servidor entre duas máquinas
+# utilizando RAW_SOCKET.
 
 # Compilador, Opções de Compilação e Arquivos Fonte
 CSOURCES=main.c
