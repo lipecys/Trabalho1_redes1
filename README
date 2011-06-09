@@ -1,0 +1,30 @@
+################################################################################
+#                     Trabalho 1 de Redes de Computadores 1                    #
+################################################################################
+
+- Implementar em C ou C++ um FTP simplificado seguindo o protocolo KERMIT 
+  modificado definido em sala;
+- Usar RawSockets;
+- Em duplas;
+- Mensagens:
+                                                      ________________
+                                       ______________|____________    |
+         _____________________________|___________________________|___|_
+        | Marca | Tamanho | Sequencia | Tipo |        Dados       | CRC |
+        |_______|_________|___________|______|____________________|_____|
+          8 bits   5 bits    3 bits    8 bits        n Bytes       8 bits
+                      |_________________________________|
+
+
+- Usar janelas deslizantes de tamanho 4 com volta-n;
+- Usar CRC-8 para detecção de erros;
+- Timeout é obrigatório;
+- Marca 01111110
+- Deve ter os seguintes comandos:
+    CD/LS -> Local e remoto;
+    PUT/GET -> enviar/puxar entre máquinas;
+- Entrega última semana do semestre;
+    - Apresentação no lab 4
+- Valor 3,0
+
+################################################################################
