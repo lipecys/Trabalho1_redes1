@@ -4,7 +4,7 @@
 # utilizando RAW_SOCKET.
 
 # Compilador, Opções de Compilação e Arquivos Fonte
-CSOURCES=main.c
+CSOURCES=main.c message.c socket.c
 CFLAGS=-Wall
 CC=gcc
 
